@@ -25,8 +25,7 @@ let binario_todo = ""
 function todo(a) {
     binario_todo = ""
     for (let i = 0; i < 8; i++) {
-    let btn = document.querySelector(`#btn_${i}`)
-    binario_todo += String(btn.value)
+    document.getElementById(`btn_${i}`).innerHTML = 
     }
     alert(binario_todo)
 }
