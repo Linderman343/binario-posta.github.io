@@ -135,3 +135,62 @@ header{
 #rand_res{
     background: #30391f;
 }
+
+@media screen and (max-width: 520px) {
+    #table{
+        width: 90%;
+        height: 150px;
+        border: #668a4c solid 10px;
+        border-radius: 20px;
+    }
+    .reference{
+        width: 40px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 12px;
+    }
+    .reference > p{
+        position: relative;
+        top: 20px;
+    }
+    .casillas{
+        border: 0;
+        border-radius: 12px;
+        width: 40px;
+        height: 50px;
+        font-size: 20px;
+    }
+    #resultados{
+        width: 90%;
+        border: #0e0e0e solid 10px;
+        border-radius: 20px;
+    }
+    
+    .btn_res{
+            width: 90%;
+            height: 35px;
+            font-size: 14px;
+            border-radius: 12px;
+    
+    }
+    .btn_res > p{
+        top: 10px;
+    }
+    #incorrect{
+        font-size: 20px;
+        width: 90%;
+        height: 29px;
+    }
+    #incorrect > p {
+        top: -2px;
+    }
+    #correct > p {
+        top: -2px;
+    }
+    #correct{ 
+        font-size: 20px;
+        width: 90%;
+        height: 29px;
+    
+    }
+}
