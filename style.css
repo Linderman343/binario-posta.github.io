@@ -34,7 +34,7 @@
     position: relative;
     top: 20px;
 }
-#casillas{
+.casillas{
     text-align: center;
     position: relative;
     margin-right:auto;
