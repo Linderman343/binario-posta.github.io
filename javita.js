@@ -2,7 +2,6 @@
 let numero = document.querySelector('#randomNumber')
 let random = Math.floor(Math.random()* (129 - 0) + 0)
 numero.textContent = 'Calcula el numero ' + random 
-alert((random).toString(2))
 
 
     for (let i = 0; i < 8; i++) {
@@ -43,5 +42,5 @@ function todo(a) {
     }
     random = Math.floor(Math.random()* (129 - 0) + 0)
 numero.textContent = 'Calcula el numero ' + random 
-alert((random).toString(2))
+
 }
